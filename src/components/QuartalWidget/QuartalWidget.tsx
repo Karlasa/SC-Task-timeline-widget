@@ -131,7 +131,6 @@ const QuartalWidget: React.FC = () => {
               <TableHeaderCell className={classes.taskDate}>
                 End date
               </TableHeaderCell>
-
               {quarterInfo.weeks.map((week) => (
                 <TableHeaderCell
                   className={classes.weekHeader}

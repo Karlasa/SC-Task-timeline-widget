@@ -18,6 +18,7 @@ import { normalizeDate } from "../../utils/DateUtils";
 import { ITaskModalProps } from "./ITaskModalProps";
 import { CalendarEdit20Regular } from "@fluentui/react-icons";
 import { TASK_LIMIT } from "../../constants/constants";
+
 const useStyles = makeStyles({
   content: {
     display: "flex",
@@ -25,7 +26,6 @@ const useStyles = makeStyles({
     rowGap: "16px",
     marginBottom: "16px",
   },
-
   modal: {
     maxWidth: "350px",
   },
